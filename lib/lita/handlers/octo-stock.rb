@@ -10,7 +10,7 @@ module Lita
 
 
       def stock_info(response)
-        symbol = "EPA.ALOCT"
+        symbol = "EPA:ALOCT"
         data = get_stock_data(symbol)
 
         response.reply format_response(data)
