@@ -3,14 +3,14 @@ require "lita"
 module Lita
   module Handlers
     class Stocks < Handler
-      route %r{^stock ([\w .-_]+)$}i, :stock_info, command: true, help: {
-        "stock <symbol>" => "Returns stock price information about the provided stock symbol."
+      route %r{action octo}i, :stock_info, command: true, help: {
+        "action octo" => "Returns stock price information of OCTO Technology."
       }
 
 
 
       def stock_info(response)
-        symbol = response.matches[0][0]
+        symbol = "EPA.ALOCT"
         data = get_stock_data(symbol)
 
         response.reply format_response(data)
