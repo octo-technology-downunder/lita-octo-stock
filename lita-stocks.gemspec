@@ -1,11 +1,11 @@
 Gem::Specification.new do |spec|
-  spec.name          = "lita-stocks"
-  spec.version       = "0.0.7"
-  spec.authors       = ["Mitch Dempsey"]
-  spec.email         = ["mrdempsey@gmail.com"]
-  spec.description   = %q{A Lita handler that displays stock prices}
-  spec.summary       = %q{A Lita handler that displays stock prices}
-  spec.homepage      = "https://github.com/webdestroya/lita-stocks"
+  spec.name          = "lita-octo-stock"
+  spec.version       = "0.0.1"
+  spec.authors       = ["David Alia"]
+  spec.email         = ["dalia@octo.com"]
+  spec.description   = %q{A Lita handler that displays OCTO stock price}
+  spec.summary       = %q{A Lita handler that displays OCTO stock price}
+  spec.homepage      = "https://github.com/octo-technology-downunder/lita-octo-stock"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
